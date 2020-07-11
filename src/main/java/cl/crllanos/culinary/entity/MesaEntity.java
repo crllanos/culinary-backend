@@ -32,7 +32,7 @@ public class MesaEntity {
 
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder("MesaEntity{");
+        final StringBuilder sb = new StringBuilder("MesaEntity {");
         sb.append("id=").append(id);
         sb.append(", nombre='").append(nombre).append('\'');
         sb.append('}');
